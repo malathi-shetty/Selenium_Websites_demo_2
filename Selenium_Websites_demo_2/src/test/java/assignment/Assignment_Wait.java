@@ -38,7 +38,7 @@ public class Assignment_Wait {
 	        
 	        w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[text()='Okay']"))).click();
 	        
-	        w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input.signInBtn"))).click();
+	        w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input#signInBtn"))).click();
 	        
 	        driver.quit();
 	}

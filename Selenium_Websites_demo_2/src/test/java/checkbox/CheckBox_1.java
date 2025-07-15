@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class CheckBox {
+public class CheckBox_1 {
 
 	public static void main(String[] args) {
 
